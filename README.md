@@ -49,7 +49,7 @@
    - **Patient Admission Counts by Month:** 
        This Line Chart tracks monthly patient admission counts across 2022, starting low in January(~300), peaking sharply in July(~480),
        with subsequent spikes and dips(e.g., ~450 in late months), reflecting seasonal or event-driven surges in hospital visits.
-https://github.com/Josephine-analyst/Public-Hospital-Utilization-Performance-Analysis/issues/9
+
    - **Mortality Count by Department:**
        The horizontal bar chart ranks departments by mortality count: Outpatients leads at 47, followed by Pediatrics(46), Internal Medicine (41),
        Maternity (40), Emergency (35) and Surgery (34), pinpointing high-risk areas.
