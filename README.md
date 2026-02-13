@@ -85,7 +85,7 @@
 <img width="1366" height="768" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/6d1b7346-0a7d-4b72-87d2-760526e6b2dd" />
      
    - **Mortality Count by Month:**
-       Line Chart deoict flunctuating mortality counts(peaks ~30),highlighting seasonal outcome patterns.
+       Line Chart depict flunctuating mortality counts(peaks ~30),highlighting seasonal outcome patterns.
 <img width="1366" height="768" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/e2859c48-4160-493c-a55f-dbe534f78e2b" />
 
    - **Mortality Count by Gender:**
