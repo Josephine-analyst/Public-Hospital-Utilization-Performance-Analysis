@@ -3,7 +3,7 @@
 ## PROJECT DESCRIPTION
    Interactive Power BI dashboard analyzing ~4,853 admissions, 243 mortalities (5% rate), and KPIs across departments, states, gender, and 20+ public hospitals in Nigeria. Built for resource allocation, capacity planning, and outcome monitoring in the public health sector.
    
-   ![Main Dashboard Overview](Screenshot%20(105).png)](Screenshot%20(105).png
+   ![Main Dashboard Overview](Screenshot%20(116).png)](Screenshot%20(116).png
 
 ## 🎯 Business problem & Objectives
    - Track seasonal patient admissions and discharges
