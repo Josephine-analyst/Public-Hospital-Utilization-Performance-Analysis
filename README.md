@@ -1,48 +1,46 @@
 # PUBLIC HOSPITAL UTILIZATION & PERFORMANCE ANALYSIS
 
 ## PROJECT DESCRIPTION
-   Interactive Power BI dashboard analyzing 4,852 admissions, 243 mortalities (5% rate) and KPIs across departments,states,gender and 20+ hospitals for Nigeria's public health sector.
+   Interactive Power BI dashboard analyzing ~4,853 admissions, 243 mortalities (5% rate), and KPIs across departments, states, gender, and 20+ public hospitals in Nigeria. Built for resource allocation, capacity planning, and outcome monitoring in the public health sector.
+   
+   ![Main Dashboard Overview](Screenshot%20(105).png)](Screenshot%20(105).png
 
-## 🎯 Objectives
-   The goal is to build an interactive power BI report that helps healthcare stakeholders 
-   - Track Patient Flow: Monitor admissions(4,852 total), discharges(90% rate) and net growth(+463) to utilization across 20 hospitals
-   - Understand utilization patterns
-   - Identify capacity gaps and monitor outcomes.
-   - Identify high-utilization states and hospitals for targeted resource allocation and capacity planning.
-   - Understand which departments(e.g.,Pediatrics, Surgery) experiences the highest demand and where to focus staffing and training.
+## 🎯 Business problem & Objectives
+   - Track seasonal patient admissions and discharges
+   - Identify high-utilization departments (e.g., Pediatrics, Surgery) and states (e.g., Kaduna)
+   - Monitor mortality rates by department, gender, and hospital
+   - Highlight capacity gaps and recommend staffing/training priorities
  
 ## 🛠️ Tools & Technologies
     - **Power BI Desktop** (Visualizations & Slicers)
     - **Power Query** (ETL/cleaning)
     - **Excel** (.xlsx source data)
-    - **DAX Measures** (16 Custom KPIs for dynamic analysis)
+    - **DAX Measures** (16+ Custom KPIs for dynamic KPIs)
     
-## ADD CALCULATED TABLE
-   *Using the Date column from the dataset to create a date table
-      . DATE TABLE = CALENDARAUTO()
-
+## KEY DAX MEASURES AND CALCULATED TABLE
+   ```dax
+// Date Table
+'DATE TABLE' = CALENDARAUTO()
    *Extracting the month and day from the Date Table
-      - MONTH = FORMAT('DATE TABLE'[Date],"MMMM")
-      - DAY = FORMAT('DATE TABLE'[Date],"DDDD")
 
+      Month = FORMAT('DATE TABLE'[Date], "MMMM")
+      Day = FORMAT('DATE TABLE'[Date], "DDDD")
 
-## 📊 KEY METRICS & DAX MEASURES
+// Sample Measures
     
-   From the model, the following aggregate metrics are observed:
-    
-   - TOTAL ADMISSIONS = SUM('Public_Hospital_Utilization_Dat'[Patients Admitted])
+   TOTAL ADMISSIONS = SUM('Public_Hospital_Utilization_Dat'[Patients Admitted])
 
-   - TOTAL DISCHARGES = SUM(Public_Hospital_Utilization_Dat[Patients Discharged])
+   TOTAL DISCHARGES = SUM(Public_Hospital_Utilization_Dat[Patients Discharged])
 
-   - TOTAL MORTALITY = SUM('Public_Hospital_Utilization_Dat'[Mortality Count])
+   TOTAL MORTALITY = SUM('Public_Hospital_Utilization_Dat'[Mortality Count])
 
-   - MORTALITY RATE% = ('DATE TABLE'[TOTAL MORTALITY]/'DATE TABLE'[TOTAL ADMISSIONS]*100)
+   MORTALITY RATE% = ('DATE TABLE'[TOTAL MORTALITY]/'DATE TABLE'[TOTAL ADMISSIONS]*100)
 
-   - DISCHARGE RATE = DIVIDE(SUM('Public_Hospital_Utilization_Dat'[Patients Discharged]),[TOTAL ADMISSIONS],0)
+   DISCHARGE RATE = DIVIDE(SUM('Public_Hospital_Utilization_Dat'[Patients Discharged]),[TOTAL ADMISSIONS],0)
 
-   - AVERAGE LENGTH OF STAY = AVERAGE(Public_Hospital_Utilization_Dat[Avg Stay (Days)])
+   AVERAGE LENGTH OF STAY = AVERAGE(Public_Hospital_Utilization_Dat[Avg Stay (Days)])
 
-   - NET CHANGE IN PATIENTS = [TOTAL ADMISSIONS]-[TOTAL DISCHARGES]
+   NET CHANGE IN PATIENTS = [TOTAL ADMISSIONS]-[TOTAL DISCHARGES]
 
 ## 📈 VISUALIZATION
      
@@ -99,34 +97,19 @@
    - Gender
    - Hospital
 
-## 🔍 KEY BUSINESS INSIGHTS
-   1. Pediatrics, Surgery, Emergency and Maternity together account for majority of admissions, meaning most demand is clinical rather than administrative.
-
-      **Recommendation:** Priortize staffing, beds and supplies in peak months; use this pattern to plan roasters and elective procedures.
-
-   2. Total Mortality is 243, giving a mortality rate of about 5%, which is one of the key indicators used to evaluate hospital quality. Outpatients,
-      Pediatrics, Internal Medicine and Maternity record the highest mortality counts(around 40-47 each), higher than Emergency and Surgery.
-
-      **Recommendation:** Conduct focused clinical audits in departments with high mortality(especially Outpatients and Pediatrics) to identify causes: late
-      presentation, medication delays or limited ICU access.
-
-   3. Admissions by gender are roughly balanced, but mortality is higher in males(around 124 deaths, ~51%) than female.
-
-      **Recommendation:** Flag male patients with severe conditions for closer monitoring, early escalation and more aggressive management pathways.
-
-   4. Pediatrics and Surgery together drive a large share of admissions, while service types like Delivery, Surgery, Lab tests and Consultations dominate
-      the service-level pie chart.
-
-      **Recommendation:** In high-risk services (e.g., Delivery, Surgery), standardized clinical pathways and checklists to reduce preventable complications
-      and errors.
+## 🔍 KEY BUSINESS INSIGHTS & RECOMMENDATIONS
+   1. High Demand Departments — Pediatrics & Surgery dominate admissions → prioritize staffing and training here.
+   2. Mortality Hotspots — Outpatients & Pediatrics show elevated rates → recommend clinical audits and protocol reviews.
+   3. Gender Disparity — Males have ~74% of mortalities → investigate underlying factors (e.g., access, delayed care).
+   4. Regional Focus — Kaduna has highest volume → allocate resources for capacity expansion.
  
 ## How to Use / Explore This Project
 
-   - Clone or download the repository.
-   - Obtain the original Excel dataset 
-   - Open PUBLIC HOSPITAL UTILIZATION & PERFORMANCE ANALYSIS.pbix in Power BI Desktop.
-   - If prompted, update the data source path to point to your local .xlsx file.
-   - Refresh the data and interact with slicers/visuals.
+   1. Clone or download the repo
+   2. Open PUBLIC HOSPITAL UTILIZATION & PERFORMANCE ANALYSIS.pbix in Power BI Desktop
+   3. If data path broken: Update source to Excel New Project(Public Hospital Utilization).xlsx
+   4. Refresh → interact with slicers!
+   5. (Optional) Publish to Power BI Service for a live public link (add here if you do).
 
 ## CONCLUSION
    High admissions (4,852 total) peak seasonally and concentrate in Pediatrics, Surgery and states like Kaduna, while mortality (243 cases, ~5% rate) clusters
