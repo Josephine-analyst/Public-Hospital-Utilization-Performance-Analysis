@@ -48,7 +48,7 @@
        This Line Chart tracks monthly patient admission counts across 2022, starting low in January(~300), peaking sharply in July(~480),
        with subsequent spikes and dips(e.g., ~450 in late months), reflecting seasonal or event-driven surges in hospital visits.
 
- ![Main Dashboard Overview](Screenshot%20(116).png)](Screenshot%20(116).png
+        ![Main Dashboard Overview](Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Mortality Count by Department:**
        The horizontal bar chart ranks departments by mortality count: Outpatients leads at 47, followed by Pediatrics(46), Internal Medicine (41),
