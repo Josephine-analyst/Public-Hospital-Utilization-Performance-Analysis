@@ -47,49 +47,49 @@
    - **Patient Admission Counts by Month:** 
        This Line Chart tracks monthly patient admission counts across 2022, starting low in January(~300), peaking sharply in July(~480),
        with subsequent spikes and dips(e.g., ~450 in late months), reflecting seasonal or event-driven surges in hospital visits.
-<img width="1366" height="768" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/13a117f9-05b3-487e-b2f7-5d23ff62819f" />
-  
+(Screenshot%20(116).png)](Screenshot%20(116).png
+
    - **Mortality Count by Department:**
        The horizontal bar chart ranks departments by mortality count: Outpatients leads at 47, followed by Pediatrics(46), Internal Medicine (41),
        Maternity (40), Emergency (35) and Surgery (34), pinpointing high-risk areas.
-<img width="1366" height="768" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/b1ed2e4c-88b5-4986-94c0-1c1feb879a2c" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Patient Admission by Department:**
        The Tree Map Chart shows patient admissions by department: Pediatrics (~47), Surgery (~24), Maternity (~23), Internal Medicine (~19),
        Outpatient (~18), totalling around 243 visits, with Pediatrics dominating volume.
-<img width="1366" height="768" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/868e8544-1615-462d-bb74-a0ee66f4fc7e" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Patient Admissions by Gender:**
        The Donut Chart divides admissions nearly evenly: Female(~50%), Male (~50%), providing a balanced gender distribution snapshot.
-<img width="1366" height="768" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/38e87bad-1834-4572-9b2a-a720f7994621" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Admissions by State:**
        The Area Chart displays declining admissions: high in Kaduna(~850), dropping sharply to Lagos(~450) and others (Oyo, Ogun, Delta ~400-500),
        overlaid with gender splits.
-<img width="1366" height="768" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/9fd7f3ac-e064-4142-b42e-34e2d4689dfb" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Patient Mortality Count by State:**
        The Horizontal Bar Chart ranks top states by patient mortality count: Kaduna leads(~32 deaths), followed by  Oyo, Delta and others(~20-25), 
        highlighting geographic disparities in outcomes possibly tied to population, facilties or health events.
-<img width="1366" height="768" alt="Screenshot (111)" src="https://github.com/user-attachments/assets/4160f7ef-3656-42ad-beed-a98e94e58ad9" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Top 5 Mortality Count by Hospital:**
        Bars detail top hospitals: 17,15,15,15 and 14 deaths, for comparing facility performance.
-<img width="1366" height="768" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/892504e5-db15-49f6-be1a-f516d3ac78df" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Patient Admission Count by Service**
        The Pie Chart distributes 772 total admissions by service: Delivery(25%,~193), Surgery(18%,~139), Lab Test(18%,~139), Consultancy(~17%)
        and others, emphasizing service loads.
-<img width="1366" height="768" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/6d1b7346-0a7d-4b72-87d2-760526e6b2dd" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
      
    - **Mortality Count by Month:**
        Line Chart depict flunctuating mortality counts(peaks ~30),highlighting seasonal outcome patterns.
-<img width="1366" height="768" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/e2859c48-4160-493c-a55f-dbe534f78e2b" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
    - **Mortality Count by Gender:**
        The Pie Chart shows male mortality dominant(~74%,119 cases) vs female (~26), indicating gender disparities in outcomes.
 
-<img width="1366" height="768" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/76f0302f-c429-459a-a90b-38c867cdca1d" />
+(Screenshot%20(116).png)](Screenshot%20(116).png
 
 ## INTERACTIVE SLICERS
    - Month
