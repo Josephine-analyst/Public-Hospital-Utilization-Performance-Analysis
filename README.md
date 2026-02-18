@@ -18,7 +18,7 @@
     - **DAX Measures** (16+ Custom KPIs for dynamic KPIs)
     
 ## KEY DAX MEASURES AND CALCULATED TABLE
-   ```dax
+   
 // Date Table
 'DATE TABLE' = CALENDARAUTO()
    *Extracting the month and day from the Date Table
@@ -48,49 +48,52 @@
        This Line Chart tracks monthly patient admission counts across 2022, starting low in January(~300), peaking sharply in July(~480),
        with subsequent spikes and dips(e.g., ~450 in late months), reflecting seasonal or event-driven surges in hospital visits.
 
+<img width="1366" height="768" alt="Screenshot (105)" src="https://github.com/user-attachments/assets/3902d344-a3ca-44a8-8d5b-baa6df382d77" />
 
    - **Mortality Count by Department:**
        The horizontal bar chart ranks departments by mortality count: Outpatients leads at 47, followed by Pediatrics(46), Internal Medicine (41),
        Maternity (40), Emergency (35) and Surgery (34), pinpointing high-risk areas.
 
+<img width="1366" height="768" alt="Screenshot (106)" src="https://github.com/user-attachments/assets/e502f369-7a27-4f83-83ad-05a7f99c7bdc" />
 
    - **Patient Admission by Department:**
        The Tree Map Chart shows patient admissions by department: Pediatrics (~47), Surgery (~24), Maternity (~23), Internal Medicine (~19),
        Outpatient (~18), totalling around 243 visits, with Pediatrics dominating volume.
-
+<img width="1366" height="768" alt="Screenshot (107)" src="https://github.com/user-attachments/assets/2b64812c-9198-4325-8a3a-d397077516cf" />
 
    - **Patient Admissions by Gender:**
        The Donut Chart divides admissions nearly evenly: Female(~50%), Male (~50%), providing a balanced gender distribution snapshot.
 
-
+<img width="1366" height="768" alt="Screenshot (108)" src="https://github.com/user-attachments/assets/e79484da-a22c-4998-a01f-15ee5c889cd8" />
 
    - **Admissions by State:**
        The Area Chart displays declining admissions: high in Kaduna(~850), dropping sharply to Lagos(~450) and others (Oyo, Ogun, Delta ~400-500),
        overlaid with gender splits.
 
+<img width="1366" height="768" alt="Screenshot (110)" src="https://github.com/user-attachments/assets/f41179db-6985-4250-bcf5-5b4ac8002733" />
 
- 
    - **Patient Mortality Count by State:**
        The Horizontal Bar Chart ranks top states by patient mortality count: Kaduna leads(~32 deaths), followed by  Oyo, Delta and others(~20-25), 
        highlighting geographic disparities in outcomes possibly tied to population, facilties or health events.
-
+<img width="1366" height="768" alt="Screenshot (111)" src="https://github.com/user-attachments/assets/31e28597-d7a9-412c-b96f-19aceba60f44" />
 
    - **Top 5 Mortality Count by Hospital:**
        Bars detail top hospitals: 17,15,15,15 and 14 deaths, for comparing facility performance.
 
+<img width="1366" height="768" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/35832ccd-cb6d-48ec-a85b-844e1f718ea6" />
 
- 
    - **Patient Admission Count by Service**
        The Pie Chart distributes 772 total admissions by service: Delivery(25%,~193), Surgery(18%,~139), Lab Test(18%,~139), Consultancy(~17%)
        and others, emphasizing service loads.
+<img width="1366" height="768" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/3c5ade2b-11bf-4af7-b609-44ca92aa302d" />
 
+   - **Mortality Count by Month:**
+       Line Chart depict flunctuating mortality counts(peaks ~30),highlighting seasonal outcome patterns.
+<img width="1366" height="768" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/1a59a602-1af2-43e6-ad15-0c73ba05ffce" />
 
-     - **Mortality Count by Month:**
-         Line Chart depict flunctuating mortality counts(peaks ~30),highlighting seasonal outcome patterns.
-
-
-     - **Mortality Count by Gender:**
-         The Pie Chart shows male mortality dominant(~74%,119 cases) vs female (~26), indicating gender disparities in outcomes.
+   - **Mortality Count by Gender:**
+       The Pie Chart shows male mortality dominant(~74%,119 cases) vs female (~26), indicating gender disparities in outcomes.
+<img width="1366" height="768" alt="Screenshot (115)" src="https://github.com/user-attachments/assets/b2cbc76c-013f-485c-ae7c-644b883a5865" />
 
 
 
